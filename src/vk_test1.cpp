@@ -27,5 +27,6 @@ int main() {
     printf("%d ", bsearch(&tt1[0], 23, sizeof (tt1) / sizeof (tt1[0]))); //8
     printf("%d ", bsearch(&tt1[0], 55, sizeof (tt1) / sizeof (tt1[0]))); //-1
     printf("%d ", bsearch(&tt1[0], 100, sizeof (tt1) / sizeof (tt1[0]))); //-1
+// add line
     return 0;
 }
